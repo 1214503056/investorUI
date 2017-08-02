@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="4_1_3/projectDetails_spec.emulator-5554" timestamp="2017-07-27T08:31:11" tests="1">
-    <testcase name="UIRecorder tests" time="2.449">
+  <testsuite name="4_1_3/loginAndLogout_spec.5c9a1f0c" timestamp="2017-08-02T03:51:29" tests="1">
+    <testcase name="UIRecorder tests" time="0">
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4_1_3/register_spec.5c9a1f0c" timestamp="2017-08-02T03:51:29" tests="1">
+    <testcase name="UIRecorder tests" time="0">
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
+      <failure><![CDATA[skipped!]]></failure>
     </testcase>
   </testsuite>
 </testsuites>
