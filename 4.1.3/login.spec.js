@@ -20,6 +20,10 @@ module.exports = function(){
         testVars = self.testVars;
     });
 
+    it('tap: //*[@resource-id="com.miui.home:id/cell_layout"]/android.widget.FrameLayout[18]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView', async function(){
+        await driver.wait('//*[@resource-id="com.miui.home:id/cell_layout"]/android.widget.FrameLayout[18]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView', 30000).sendElementActions('tap');
+    });
+
     it('tap: 请输入手机号 ( //*[@text="请输入手机号"] )', async function(){
         await driver.wait('//*[@text="请输入手机号"]', 30000).sendElementActions('tap');
     });
@@ -56,45 +60,11 @@ module.exports = function(){
         await driver.wait('//*[@text="登录"]', 30000).sendElementActions('tap');
     });
 
-    it('expect: text, //*[@text="搜索业内最全项目数据库"], equal, 搜索业内最全项目数据库', async function(){
-        await driver.sleep(300).wait('//*[@text="搜索业内最全项目数据库"]', 30000)
-               .text()
-               .should.not.be.a('error')
-               .should.equal(_(`搜索业内最全项目数据库`));
-    });
-
     it('expect: text, //*[@text="逐鹿甄选"], equal, 逐鹿甄选', async function(){
         await driver.sleep(300).wait('//*[@text="逐鹿甄选"]', 30000)
                .text()
                .should.not.be.a('error')
                .should.equal(_(`逐鹿甄选`));
-    });
-
-    it('tap: 我的 ( //*[@text="我的"] )', async function(){
-        await driver.wait('//*[@text="我的"]', 30000).sendElementActions('tap');
-    });
-
-    it('drag: 611, 1470, 757, 432, 1.09', async function(){
-        await driver.sendActions('drag', {fromX: 611, fromY:1470, toX:757, toY:432, duration: 1.09});
-    });
-
-    it('tap:  ( //*[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView[2] )', async function(){
-        await driver.wait('//*[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView[2]', 30000).sendElementActions('tap');
-    });
-
-    it('tap: 退出登录 ( //*[@text="退出登录"] )', async function(){
-        await driver.wait('//*[@text="退出登录"]', 30000).sendElementActions('tap');
-    });
-
-    it('tap: 退出登录 ( //*[@text="退出登录"] )', async function(){
-        await driver.wait('//*[@text="退出登录"]', 30000).sendElementActions('tap');
-    });
-
-    it('expect: text, //*[@text="验证码登录"], equal, 验证码登录', async function(){
-        await driver.sleep(300).wait('//*[@text="验证码登录"]', 30000)
-               .text()
-               .should.not.be.a('error')
-               .should.equal(_(`验证码登录`));
     });
 
     function _(str){
