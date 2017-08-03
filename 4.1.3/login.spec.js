@@ -7,7 +7,7 @@ var JWebDriver = require('jwebdriver');
 chai.use(JWebDriver.chaiSupportChainPromise);
 
 var rootPath = getRootPath();
-var appPath = '/Users/lucy/Desktop/zhulux_signed_aligned.apk';
+var appPath = '/root/Downloads/zhulux_signed_aligned.apk';
 var platformName = 'Android';
 
 module.exports = function(){
